@@ -5,7 +5,6 @@ from nltk.tokenize import sent_tokenize
 # import nltk
 # nltk.download('punkt')
 
-# Define the split_text function
 def split_text(text, chunk_size=512):
     sentences = sent_tokenize(text)
     chunks = []
